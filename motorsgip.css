@@ -1,0 +1,466 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+
+
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px black;
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+  
+
+}
+
+.headerleft {
+    width: 45%;
+    margin-left: 2%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: 30%;
+    text-align: justify;
+
+
+
+
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu {
+    padding-left: 20px;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 5px;
+    width: auto;
+
+}
+
+.menu>ul>li {
+    padding: 10px;
+
+}
+
+.menu>ul>li a {
+
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.headerright {
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    gap: 1pxpx;
+    padding-left: 35%;
+
+}
+
+.headerright form {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+    gap: 30px;
+    align-items: center;
+
+
+
+
+}
+
+.headerright form a {
+    color: white;
+
+}
+
+.banner1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(./596367_v2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 25;
+    font-weight: bold;
+
+}
+.topleft p{
+font-weight: lighter;
+font-size: 40;
+}
+.topleft h1{
+    font-size: 100;
+}
+.topleft form {
+    padding-top: 20px;
+    height: 20%;
+    font-size: 50;
+}
+
+.topleft form a {
+    color:white;
+
+}
+
+.bottom-right {
+    position: absolute;
+   
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    padding-bottom: 3%;
+    padding-right:37% ;
+    font-size: 40;
+   
+}
+.bottom-right form {
+    
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+    
+}
+
+.bottom-right form a {
+    color:white;
+
+}
+.bottom-right2{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+    padding-bottom: 2%;
+    padding-right:10% ;
+    font-size: 35;
+}
+.write{
+    padding-top: 7% ;
+    padding-left:10% ;
+}
+.image{
+    padding-left: 10%;
+    padding-top: 35px;
+}
+.photo {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+
+}
+
+.photoleft {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+
+}
+
+.photoleft img {
+    clip-path: polygon(0 0, 100% 0%, 58% 100%, 0% 100%);
+
+
+
+    z-index: -1;
+
+}
+
+.photoright {
+    width: 30%;
+    height: 10%;
+    padding-top: 10%;
+    padding-left: 65%;
+}
+
+.photoright h1 {
+    font-weight: bold;
+}
+
+.photoright p {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.photoright form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.photoright form a {
+    color: black;
+
+}
+.photo1{
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    padding-top: 7%;
+
+}
+.photo1left{
+    width: 30%;
+    height: 20%;
+    padding-top: 5%;
+    padding-left:10% ;
+     z-index: -1;
+    
+}
+.photo1left p{
+    padding-top: 30px;
+    text-align: justify;
+    color: rgb(97, 91, 91);
+    position:relative;
+    z-index:-1 ;
+    font-size: 20;
+}
+
+.photo1right{
+
+    width: 80%;
+    height: 120%;
+    z-index: -1;
+    clip-path: polygon(52% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.photo2{
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+    padding-top: 14%;
+    z-index: -1;
+
+}
+.photo2left{
+    width: 50%;
+    height: 20%;
+    padding-top: 5%;
+    padding-left:10% ;
+    
+}
+.photo2left p{
+    padding-top: 30px;
+    text-align: justify;
+    color: rgb(97, 91, 91);
+    position:relative;
+    z-index:-1 ;
+    font-size: 20;
+}
+.photo2right{
+
+    width: 40%;
+    height: 100%;
+    z-index: -1;
+    clip-path: polygon(61% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.photo3{
+    padding-top: 17px;
+}
+.photo4 {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+
+}
+
+.photo4left {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+
+}
+
+.photo4left img {
+    clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%);
+
+
+
+    z-index: -1;
+
+}
+
+.photo4right {
+    width: 30%;
+    height: 10%;
+    padding-top: 10%;
+    padding-left: 65%;
+}
+
+.photo4right h1 {
+    font-weight: bold;
+}
+
+.photo4right p {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.photo4right form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.photo4right form a {
+    color: black;
+
+}
+
+.photo5{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding-top: 30px;
+}
+.photo5left{
+    width: 50%;
+    height: 100%;
+    padding-left:10% ;
+    padding-top: 5%;
+}
+.photo5left p{
+    padding-top: 20px;
+    font-size: 20;
+}
+.photo5right{
+    width: 70%;
+    height: 90%;
+    clip-path: polygon(55% 0, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+   
+
+}
+
+.writting {
+   
+    width: 100%;
+
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w1left {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.w1right {
+    width: 45%;
+    color: white;
+    padding-top: 50px;
+    
+    display: flex;
+}
+
+.w1right form {
+    
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left:30% ;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.w1right form a {
+    color: white;
+}
+
+.write2 {
+    
+
+    
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    font-family: sans-serif;
+
+
+}
+
+.w2 {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left:50px ;
+
+}
+
+.w3 {
+    width: 90%;
+    color: white;
+    font-size: 15;
+    padding-top: 30px;
+    padding-left: 50px;
+
+
+}
+
+.w4 {
+    width: 90%;
+    color: white;
+    font-size: 18;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+}

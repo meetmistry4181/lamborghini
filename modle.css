@@ -1,0 +1,376 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+
+
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px black;
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+  
+
+}
+
+.headerleft {
+    width: 45%;
+    margin-left: 2%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: 30%;
+    text-align: justify;
+
+
+
+
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu {
+    padding-left: 20px;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 5px;
+    width: auto;
+
+}
+
+.menu>ul>li {
+    padding: 10px;
+
+}
+
+.menu>ul>li a {
+
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.headerright {
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    gap: 1pxpx;
+    padding-left: 35%;
+
+}
+
+.headerright form {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+    gap: 30px;
+    align-items: center;
+
+
+
+
+}
+
+.headerright form a {
+    color: white;
+
+}
+.banner1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(./hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 30;
+    font-weight: bold;
+
+}
+
+.topleft p {
+    font-weight: lighter;
+    font-size: 50;
+}
+
+.topleft h1 {
+    font-size: 110;
+}
+
+.topleft form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.topleft form a {
+    color: white;
+
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: black;
+
+    color: #f1f1f1;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20PX;
+    
+    align-items: center;
+    text-align: center;
+}
+.wrote {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: relative;
+
+}
+
+.wroteleft {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    position: absolute;
+
+}
+
+.wroteleft img {
+
+    clip-path: polygon(0 0, 100% 0, 74% 100%, 0 100%);
+
+
+    
+    z-index: -1;
+
+
+}
+
+
+
+
+.wroteright {
+    width: 30%;
+    height: 20%;
+    padding-top: 3%;
+    padding-left: 67%;
+}
+
+.wroteright img {
+    align-items: center;
+    position: relative;
+    z-index:-1 ;
+}
+
+.wroteright p {
+    padding-top: 30px;
+    text-align: justify;
+    color: rgb(97, 91, 91);
+    position:relative;
+    z-index:-1 ;
+    font-size: 20;
+}
+.poster{
+    width:100% ;
+    height:70% ;
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+}
+.posterleft{
+    width: 50%;
+    height: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    z-index: -1;
+    
+}
+.posterleft p{
+    padding-top: 30px;
+    font-size: 20;
+}
+.posterright{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+    padding-left:60% ;
+    padding-bottom: 10px;
+}
+.posterright img{
+    clip-path: polygon(85% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.banner5{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.banner5left{
+    width: 75%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0%, 59% 100%, 0% 100%);
+    z-index: -1;
+}
+.banner5right{
+    width: 50%;
+    height: 100%;
+    padding-top: 5%;
+}
+.banner5right p{
+    padding-top: 30px;
+    font-size:20 ;
+}
+.poster2{
+    width:100% ;
+    height:70% ;
+    display: flex;
+    position: relative;
+    padding-top: 20px;
+}
+.poster2left{
+    width: 50%;
+    height: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    z-index: -1;
+    
+}
+.poster2left p{
+    padding-top: 30px;
+    font-size: 20;
+}
+.poster2left img{
+    width:35% ;
+}
+.poster2right{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+    padding-left:60% ;
+    padding-bottom: 10px;
+}
+.poster2right img{
+    clip-path: polygon(59% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+.writting {
+   
+    width: 100%;
+
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w1left {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.w1right {
+    width: 45%;
+    color: white;
+    padding-top: 50px;
+    
+    display: flex;
+}
+
+.w1right form {
+    
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left:30% ;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.w1right form a {
+    color: white;
+}
+
+.write {
+    
+
+    
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    font-family: sans-serif;
+
+
+}
+
+.w2 {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left:50px ;
+
+}
+
+.w3 {
+    width: 90%;
+    color: white;
+    font-size: 15;
+    padding-top: 30px;
+    padding-left: 50px;
+
+
+}
+
+.w4 {
+    width: 90%;
+    color: white;
+    font-size: 18;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+}

@@ -1,0 +1,485 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+
+
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px black;
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+  
+
+}
+
+.headerleft {
+    width: 45%;
+    margin-left: 2%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: 30%;
+    text-align: justify;
+
+
+
+
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu {
+    padding-left: 20px;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 5px;
+    width: auto;
+
+}
+
+.menu>ul>li {
+    padding: 10px;
+
+}
+
+.menu>ul>li a {
+
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.headerright {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+    padding-left: 45%;
+
+}
+
+.headerright form {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+    gap: 30px;
+    align-items: center;
+
+
+
+
+}
+
+.headerright form a {
+    color: white;
+
+}
+.banner1 {
+    height: 90%;
+    width: 100%;
+    background-image: url(lamborghini-urus-3440x1440-8156\ \(1\).jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size : 100% 100%;
+}
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 25;
+    font-weight: bold;
+
+}
+.topleft p{
+font-weight: lighter;
+font-size: 30;
+}
+.topleft h1{
+    font-size: 90;
+}
+.topleft form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.topleft form a {
+    color:white;
+
+}
+.photo {
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: relative;
+
+}
+
+.photoleft {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    position: absolute;
+
+}
+
+.photoleft img {
+    clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%);
+
+
+
+    z-index: -1;
+
+}
+
+.photoright {
+    width: 30%;
+    height: 10%;
+    padding-top: 5%;
+    padding-left: 67%;
+}
+
+.photoright h1 {
+    font-weight: bold;
+}
+
+.photoright p {
+    padding-top: 10px;
+    text-align: justify;
+    font-size:25;
+    font-family: sans-serif;
+
+}
+
+.photoright form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.photoright form a {
+    color: black;
+
+}
+.holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 5%;
+}
+.holderleft{
+    width: 50%;
+    height: 50%
+}
+.holderup{
+    height:50%;
+    width: 50%;
+    padding-top: 20px;
+   padding-left:40% ;
+   text-align: justify;
+}
+.holderup p{
+    padding-top: 30px;
+    font-size: 20;
+}
+.holderdown{
+    padding-top: 21%;
+    height: 90% ;
+    width: 123%;
+    position: relative;
+    z-index: -1;
+    clip-path: polygon(23% 0, 100% 0%, 80% 100%, 0 100%);
+}
+.holderright{
+    width:80% ;
+    height: 50%;
+   
+    z-index: -1;
+   
+}
+.holderrightup{
+    width: 100%;
+    height: 140%;
+    z-index: -1;
+    clip-path: polygon(30% 0, 100% 0%, 80% 100%, 8% 100%);
+}
+.holderrightdown{
+    padding-top: 5%;
+    padding-left:10% ;
+   
+}
+.holderrightdown p{
+    padding-top: 20px;
+    font-size: 20;
+   text-align: justify;
+}
+.poster{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding-top: 30px;
+}
+.posterleft{
+    width:100%;
+    height: 100%;
+    z-index: -1;
+  
+    clip-path: polygon(25% 0%, 100% 0, 78% 100%, 0% 100%);
+}
+.posterright{
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    clip-path: polygon(25% 0%, 100% 0, 78% 100%, 0% 100%);
+}
+.writting {
+   
+    width: 100%;
+
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w1left {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.w1right {
+    width: 45%;
+    color: white;
+    padding-top: 50px;
+    
+    display: flex;
+}
+
+.w1right form {
+    
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left:30% ;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.w1right form a {
+    color: white;
+}
+
+.write {
+    
+
+    
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    font-family: sans-serif;
+
+
+}
+
+.w2 {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left:50px ;
+
+}
+
+.w3 {
+    width: 90%;
+    color: white;
+    font-size: 15;
+    padding-top: 30px;
+    padding-left: 50px;
+
+
+}
+
+.w4 {
+    width: 90%;
+    color: white;
+    font-size: 18;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+/* Base styles remain as is */
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .banner1 {
+      background-size: cover;
+    }
+    .topleft {
+      padding-top: 10%;
+      padding-left: 5%;
+    }
+    .topleft h1 {
+      font-size: 60px;
+    }
+    .topleft p {
+      font-size: 20px;
+    }
+    .photo {
+      flex-direction: column;
+      align-items: center;
+    }
+    .photoleft,
+    .photoright {
+      width: 90%;
+    }
+    .photoright {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  
+  /* For mobile phones */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    .headerleft,
+    .headerright {
+      width: 100%;
+      justify-content: center;
+      margin: 10px 0;
+    }
+    .menu>ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .banner1 {
+      height: 60%;
+      background-size: contain;
+    }
+    .topleft {
+      padding-top: 20%;
+      text-align: center;
+    }
+    .topleft h1 {
+      font-size: 40px;
+    }
+    .topleft p {
+      font-size: 18px;
+    }
+    .photo {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+    }
+    .photoleft,
+    .photoright {
+      width: 100%;
+      text-align: center;
+    }
+    .photoright h1 {
+      font-size: 24px;
+    }
+    .photoright p {
+      font-size: 16px;
+    }
+    .holder {
+      flex-direction: column;
+      align-items: center;
+    }
+    .holderleft,
+    .holderright {
+      width: 90%;
+    }
+    .holderup,
+    .holderdown {
+      text-align: center;
+    }
+    .holderup p,
+    .holderrightdown p {
+      font-size: 16px;
+    }
+    .poster {
+      flex-direction: column;
+      align-items: center;
+    }
+    .posterleft,
+    .posterright {
+      width: 90%;
+      clip-path: none;
+    }
+  }
+  
+  /* For very small devices */
+  @media (max-width: 480px) {
+    .topleft h1 {
+      font-size: 30px;
+    }
+    .topleft p {
+      font-size: 16px;
+    }
+    .photoright h1 {
+      font-size: 18px;
+    }
+    .photoright p {
+      font-size: 14px;
+    }
+    .holderup p,
+    .holderrightdown p {
+      font-size: 14px;
+    }
+    .w1left {
+      font-size: 14px;
+    }
+    .w2 {
+      font-size: 14px;
+    }
+    .w3 {
+      font-size: 12px;
+    }
+    .w4 {
+      font-size: 14px;
+    }
+  }
+  

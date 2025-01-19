@@ -1,0 +1,398 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    
+
+
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px black;
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+  
+
+}
+
+.headerleft {
+    width: 45%;
+    margin-left: 2%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: 30%;
+    text-align: justify;
+
+
+
+
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu {
+    padding-left: 20px;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 5px;
+    width: auto;
+
+}
+
+.menu>ul>li {
+    padding: 10px;
+
+}
+
+.menu>ul>li a {
+
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.headerright {
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    gap: 1pxpx;
+    padding-left: 35%;
+
+}
+
+.headerright form {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+    gap: 30px;
+    align-items: center;
+
+
+
+
+}
+
+.headerright form a {
+    color: white;
+
+}
+.banner1 {
+    height: 110%;
+    width: 100%;
+    background-image: url(./updated31.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes myani {
+    0% {
+        background-image: url(./updated31.webp);
+    }
+
+    50% {
+        background-image: url(./updated32.webp);
+    }
+
+    100% {
+        background-image: url(./updated33.webp);
+    }
+
+}
+
+#myVideo {
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 30;
+    font-weight: bold;
+
+}
+
+.topleft p {
+    font-weight: lighter;
+    font-size: 50;
+}
+
+.topleft h1 {
+    font-size: 110;
+}
+
+.topleft form {
+    padding-top: 40px;
+    height: 20%;
+    font-size: 50;
+}
+
+.topleft form a {
+    color: white;
+
+}
+.holder{
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    display: flex;
+}
+.holderleft{
+    width: 50%;
+    height: 50%;
+}
+.holderright{
+    width: 50%;
+    height: 70%;
+    padding-top: 30px;
+}
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+  
+    font-size: 10;
+    font-weight: bold;
+
+}
+
+
+.topleft2 h1 {
+    padding-top: 15%;
+    padding-left:10% ;
+    font-size: 50;
+    color: white;
+}
+
+.topleft2 form {
+    padding-top: 20px;
+    padding-left:10% ;
+    height: 20%;
+    font-size: 50;
+}
+
+.topleft2 form a {
+    color: white;
+
+}
+.banner2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.banner2left{
+    width: 70%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0%, 42% 100%, 0% 100%);
+    z-index: -1;
+}
+.banner2right{
+    width: 50%;
+    height: 100%;
+    padding-top: 10%;
+}
+.banner2right p{
+    padding-top: 30px;
+    font-size: larger;
+
+}
+.banner2right form {
+    padding-top: 20px;
+   
+    height: 20%;
+    font-size: 50;
+}
+
+.banner2right form a {
+    color: black;
+
+}
+.banner3{
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+}
+.banner3left{
+    width: 50%;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 20;
+
+}
+.banner3left p{
+    padding-top: 20px;
+}
+.banner3left form {
+    padding-top: 20px;
+   
+    height: 20%;
+    font-size: 50;
+}
+
+.banner3left form a {
+    color: black;
+
+}
+.banner3right{
+    width: 70%;
+    height: 100%;
+    clip-path: polygon(66% 0, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+}
+.poster{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 10%;
+   
+
+}
+
+.posterleft{
+    width: 50%;
+    height: 100%;
+
+}
+.posterleft img{
+    padding-left: 20%;
+}
+.posterright{
+    width: 50%;
+    height: 100%;
+    padding-left: 100px;
+    font-size: 15;
+}
+.posterright h1{
+    padding-top: 20px;
+}
+.posterright p{
+    padding-top: 30px;
+}
+.writting {
+   
+    width: 100%;
+
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w1left {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.w1right {
+    width: 45%;
+    color: white;
+    padding-top: 50px;
+    
+    display: flex;
+}
+
+.w1right form {
+    
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left:30% ;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.w1right form a {
+    color: white;
+}
+
+.write {
+    
+
+    
+    width: 100%;
+    height: 35%;
+    background-color: black;
+    font-family: sans-serif;
+
+
+}
+
+.w2 {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left:50px ;
+
+}
+
+.w3 {
+    width: 90%;
+    color: white;
+    font-size: 15;
+    padding-top: 30px;
+    padding-left: 50px;
+
+
+}
+
+.w4 {
+    width: 90%;
+    color: white;
+    font-size: 18;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+}

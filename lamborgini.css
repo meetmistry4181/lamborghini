@@ -1,0 +1,481 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+
+
+
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+    left: 0%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px black;
+    background-color: black;
+    position: fixed;
+    font-size: larger;
+
+
+}
+
+.headerleft {
+    width: 45%;
+    margin-left: 2%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-size-adjust: 30%;
+    text-align: justify;
+
+
+
+
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menu {
+    padding-left: 20px;
+
+}
+
+.menu>ul {
+    display: flex;
+    gap: 5px;
+    width: auto;
+
+}
+
+.menu>ul>li {
+    padding: 10px;
+
+}
+
+.menu>ul>li a {
+
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.headerright {
+    width: 45%;
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    gap: 1px;
+    padding-left: 35%;
+
+}
+
+.headerright form {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+
+    gap: 30px;
+    align-items: center;
+
+
+
+
+}
+
+.headerright form a {
+    color: white;
+
+}
+
+.text {
+    padding-top: 70px;
+    padding-left: 10%;
+    font-size: 20;
+    font-weight: lighter;
+    color: rgb(36, 33, 33);
+}
+
+.text1 {
+    padding-left: 10%;
+    font-size: 40;
+    font-weight: bolder;
+    color: rgb(36, 33, 33);
+}
+
+.banner1 {
+    height: 90%;
+    width: 100%;
+    background-image: url(./video.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation-name: myani;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+
+#myVideo {
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.topleft {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 25;
+    font-weight: bold;
+
+}
+.topleft form {
+    padding-top: 20px;
+    font-size: 50;
+}
+
+.topleft form a {
+    color: white;
+
+}
+
+.topleft p {
+    color: white;
+    font-size: 70;
+    font-weight: bold;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: black;
+
+    color: #f1f1f1;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 20PX;
+
+    align-items: center;
+    text-align: center;
+}
+
+.banner2 {
+    height: 80%;
+    width: 100%;
+    background-image: url(./Pagani_Lamborghini_car_vehicle_red_cars-261611.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.topleft1 {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 45;
+    font-weight: bold;
+
+}
+
+.topleft1 form {
+    padding-top: 20px;
+}
+
+.topleft1 form a {
+    color: white;
+
+}
+
+.topleft11 {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 45;
+    font-weight: bold;
+}
+
+.topleft11 form {
+    padding-top: 20px;
+}
+
+.topleft11 form a {
+    color: white;
+}
+
+.banner3 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    padding-top: 5%;
+
+}
+
+.banner3left {
+    width: 50%;
+    height: 50%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.banner3right {
+    width: 70%;
+    height: 80%;
+
+    background-image: url(./sssss.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.topleft3 {
+    position: static;
+    top: 8px;
+    left: 12px;
+
+    color: black;
+    font-size: 35;
+    font-weight: bold;
+
+}
+
+.topleft3 form {
+    padding-top: 20px;
+}
+
+.topleft3 form a {
+    color: black;
+}
+
+.banner4 {
+    height: 90%;
+    width: 100%;
+    background-image: url(./bbb.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.topleft2 {
+    position: static;
+    top: 8px;
+    left: 12px;
+    font-size: 20px;
+    color: white;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-size: 35;
+    font-weight: bold;
+}
+
+.topleft2 form {
+    padding-top: 20px;
+}
+
+.topleft2 form a {
+    color: white;
+
+}
+
+.banner5 {
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.text {
+    padding-top: 40px;
+
+}
+
+.text2 {
+    padding-top: 30px;
+    padding-left: 10%;
+    font-size: 60%;
+    color: rgb(67, 59, 59);
+}
+
+.text3 {
+    padding-top: 30px;
+    padding-left: 10%;
+    font-size: 20;
+    font-weight: lighter;
+    color: black;
+}
+
+.text4 {
+
+    padding-left: 10%;
+    font-size: 20;
+    font-weight: lighter;
+    color: black;
+}
+
+.text5 {
+    padding-top: 10px;
+    padding-left: 10%;
+    font-size: 20;
+    font-weight: lighter;
+    color: rgb(91, 86, 86);
+}
+
+.writting {
+
+    width: 100%;
+
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.w1left {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.w1right {
+    width: 45%;
+    color: white;
+    padding-top: 50px;
+
+    display: flex;
+}
+
+.w1right form {
+
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 30%;
+
+    gap: 30px;
+    align-items: center;
+}
+
+.w1right form a {
+    color: white;
+}
+
+.write {
+
+
+
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    font-family: sans-serif;
+
+
+}
+
+.w2 {
+    width: 45%;
+    color: white;
+    font-size: 60%;
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+
+.w3 {
+    width: 90%;
+    color: white;
+    font-size: 15;
+    padding-top: 30px;
+    padding-left: 50px;
+
+
+}
+
+.w4 {
+    width: 90%;
+    color: white;
+    font-size: 18;
+    padding-top: 30px;
+    text-align: justify;
+    padding-left: 50px;
+}
+
+
+@media (max-width:786px) {
+    .menu {
+        display: none
+    }
+    .header{
+        height:10% ;
+        width: 80.99%;
+        overflow: hidden;
+    }
+    .headerleft{
+        width: 30%;
+    }
+    .headerright{
+        width: 70%;
+        padding-left: 67%;
+    }
+    .banner1{
+        width: 100%;
+    }
+    .banner2{
+        width: 100%;
+    }
+    .banner3{
+        width: 100%;
+        
+       
+    }
+    .banner4{
+        width: 100%;
+
+    }
+    .banner5{
+        width: 100%;
+    }
+    .writting{
+        display: block;
+        
+    
+    }
+}
